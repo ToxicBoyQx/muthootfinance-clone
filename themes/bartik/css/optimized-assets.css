@@ -1,0 +1,186 @@
+/* Optimized Assets CSS - Consolidated for better performance */
+
+/* Font optimization */
+@font-face {
+    font-family: 'system-ui';
+    font-style: normal;
+    font-weight: 400;
+    src: local(".SFNSText-Regular"), local(".HelveticaNeueDeskInterface-Regular"), local(".LucidaGrandeUI"), local("Segoe UI"), local("Ubuntu"), local("Roboto-Regular"), local("DroidSans"), local("Tahoma");
+    font-display: swap;
+}
+
+/* Custom fonts with local references */
+@font-face {
+    font-family: 'FrutigerBlack';
+    src: url('../fonts/FrutigerBlack.eot');
+    src: url('../fonts/FrutigerBlack.eot') format('embedded-opentype'),
+         url('../fonts/FrutigerBlack.woff2') format('woff2'),
+         url('../fonts/FrutigerBlack.woff') format('woff'),
+         url('../fonts/FrutigerBlack.ttf') format('truetype'),
+         url('../fonts/FrutigerBlack.svg#FrutigerBlack') format('svg');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FrutigerLTStd55RomanRegular';
+    src: url('../fonts/FrutigerLTStd55RomanRegular.eot');
+    src: url('../fonts/FrutigerLTStd55RomanRegular.eot') format('embedded-opentype'),
+         url('../fonts/FrutigerLTStd55RomanRegular.woff2') format('woff2'),
+         url('../fonts/FrutigerLTStd55RomanRegular.woff') format('woff'),
+         url('../fonts/FrutigerLTStd55RomanRegular.ttf') format('truetype'),
+         url('../fonts/FrutigerLTStd55RomanRegular.svg#FrutigerLTStd55RomanRegular') format('svg');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'frutigeb';
+    src: url('../fonts/frutigeb.eot');
+    src: url('../fonts/frutigeb.eot') format('embedded-opentype'),
+         url('../fonts/frutigeb.woff2') format('woff2'),
+         url('../fonts/frutigeb.woff') format('woff'),
+         url('../fonts/frutigeb.ttf') format('truetype'),
+         url('../fonts/frutigeb.svg#frutigeb') format('svg');
+    font-display: swap;
+}
+
+/* App badges styling - optimized */
+.app-badge {
+    max-width: 135px;
+    height: auto;
+    display: inline-block;
+    margin: 5px;
+    transition: opacity 0.3s ease;
+    will-change: opacity;
+}
+
+.app-badge:hover {
+    opacity: 0.9;
+}
+
+/* Footer styling improvements */
+.bottom_footer {
+    padding: 15px 0;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+}
+
+.bottom_footer p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.mobile_tnc {
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Banner section with local background */
+.bannerSection {
+    width: 100%;
+    height: 450px;
+    display: inline-block;
+    background: url(../images/banner-bg.jpg) no-repeat center top/cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.bannerSection > img {
+    display: none;
+}
+
+/* Image optimization */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img[loading="lazy"] {
+    transition: opacity 0.3s ease;
+}
+
+/* SVG optimization */
+.svg-icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+/* Preload critical assets */
+.preload-assets {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    z-index: -1;
+}
+
+/* Performance improvements */
+.content-lazy-load {
+    transition: opacity 0.5s ease;
+    will-change: opacity;
+}
+
+/* Responsive improvements */
+@media (max-width: 992px) {
+    .app-badge {
+        max-width: 130px;
+    }
+    
+    .bottom_footer .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-badge {
+        max-width: 120px;
+    }
+    
+    .hide-on-mobile {
+        display: none !important;
+    }
+    
+    .text-center-mobile {
+        text-align: center !important;
+    }
+    
+    .bannerSection {
+        height: 380px;
+    }
+}
+
+@media (max-width: 576px) {
+    .app-badge {
+        max-width: 110px;
+    }
+    
+    .bottom_footer {
+        padding: 10px 0;
+    }
+    
+    .bottom_footer p {
+        font-size: 12px;
+    }
+    
+    .bannerSection {
+        height: 240px;
+    }
+}
+
+/* Accessibility improvements */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}

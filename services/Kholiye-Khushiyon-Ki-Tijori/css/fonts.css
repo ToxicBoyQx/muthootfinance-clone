@@ -1,0 +1,68 @@
+@font-face {
+    font-family: FrutigerLTStdCn;
+    src: url(../fonts/FrutigerLTStdCn.eot);
+    src: url(../fonts/FrutigerLTStdCn.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStdCn.woff2) format("woff2"), url(../fonts/FrutigerLTStdCn.woff) format("woff"), url(../fonts/FrutigerLTStdCn.ttf) format("truetype"),
+        url(../fonts/FrutigerLTStdCn.svg#FrutigerLTStdCn) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: MyriadProRegular;
+    src: url(../fonts/MyriadProRegular.eot);
+    src: url(../fonts/MyriadProRegular.eot) format("embedded-opentype"), url(../fonts/MyriadProRegular.woff2) format("woff2"), url(../fonts/MyriadProRegular.woff) format("woff"), url(../fonts/MyriadProRegular.ttf) format("truetype"),
+        url(../fonts/MyriadProRegular.svg#MyriadProRegular) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: frutigeb;
+    src: url(../fonts/frutigeb.eot);
+    src: url(../fonts/frutigeb.eot) format("embedded-opentype"), url(../fonts/frutigeb.woff2) format("woff2"), url(../fonts/frutigeb.woff) format("woff"), url(../fonts/frutigeb.ttf) format("truetype"),
+        url(../fonts/frutigeb.svg#frutigeb) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: frutigel;
+    src: url(../fonts/frutigel.eot);
+    src: url(../fonts/frutigel.eot) format("embedded-opentype"), url(../fonts/frutigel.woff2) format("woff2"), url(../fonts/frutigel.woff) format("woff"), url(../fonts/frutigel.ttf) format("truetype"),
+        url(../fonts/frutigel.svg#frutigel) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: frutigeb;
+    src: url(../fonts/frutigeb.eot);
+    src: url(../fonts/frutigeb.eot) format("embedded-opentype"), url(../fonts/frutigeb.woff2) format("woff2"), url(../fonts/frutigeb.woff) format("woff"), url(../fonts/frutigeb.ttf) format("truetype"),
+        url(../fonts/frutigeb.svg#frutigeb) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerLTStd55RomanRegular;
+    src: url(../fonts/FrutigerLTStd55RomanRegular.eot);
+    src: url(../fonts/FrutigerLTStd55RomanRegular.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStd55RomanRegular.woff2) format("woff2"), url(../fonts/FrutigerLTStd55RomanRegular.woff) format("woff"),
+        url(../fonts/FrutigerLTStd55RomanRegular.ttf) format("truetype"), url(../fonts/FrutigerLTStd55RomanRegular.svg#FrutigerLTStd55RomanRegular) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerBlack;
+    src: url(../fonts/FrutigerBlack.eot);
+    src: url(../fonts/FrutigerBlack.eot) format("embedded-opentype"), url(../fonts/FrutigerBlack.woff2) format("woff2"), url(../fonts/FrutigerBlack.woff) format("woff"), url(../fonts/FrutigerBlack.ttf) format("truetype"),
+        url(../fonts/FrutigerBlack.svg#FrutigerBlack) format("svg");
+        font-display: swap;
+}
+@font-face {
+    font-family: FrutigerLTStd65Bold_18824;
+    src: url(../fonts/FrutigerLTStd65Bold_18824.eot);
+    src: url(../fonts/FrutigerLTStd65Bold_18824.eot) format("embedded-opentype"), url(../fonts/FrutigerLTStd65Bold_18824.woff2) format("woff2"), url(../fonts/FrutigerLTStd65Bold_18824.woff) format("woff"),
+        url(../fonts/FrutigerLTStd65Bold_18824.ttf) format("truetype"), url(../fonts/FrutigerLTStd65Bold_18824.svg#FrutigerLTStd65Bold_18824) format("svg");
+        font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'FrutigerLTStd77BlackCondensed_18829';
+    src: url('../fonts/FrutigerLTStd77BlackCondensed_18829.eot');
+    src: url('../fonts/FrutigerLTStd77BlackCondensed_18829.eot') format('embedded-opentype'),
+         url('../fonts/FrutigerLTStd77BlackCondensed_18829.woff2') format('woff2'),
+         url('../fonts/FrutigerLTStd77BlackCondensed_18829.woff') format('woff'),
+         url('../fonts/FrutigerLTStd77BlackCondensed_18829.ttf') format('truetype'),
+         url('../fonts/FrutigerLTStd77BlackCondensed_18829.svg#FrutigerLTStd77BlackCondensed_18829') format('svg');
+         font-display: swap;
+}
